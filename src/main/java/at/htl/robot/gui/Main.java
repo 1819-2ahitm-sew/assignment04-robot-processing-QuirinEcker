@@ -55,8 +55,10 @@ public class Main extends PApplet {
         if (x < 0 || y < 0) {
             if (x < 0) {
                 x = 0;
+                robot.setX(0);
             } else {
                 y = 0;
+                robot.setY(0);
             }
         }
         ellipse(leftMargin + (celllength / 2) + (celllength * x), upperMargin + (celllength / 2) + (celllength * y), celllength, celllength);
