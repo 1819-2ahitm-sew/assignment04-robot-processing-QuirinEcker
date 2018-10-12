@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Robot" />
+        <module name="assignment04-robot-processing-QuirinEcker" />
         <module name="robot" />
+        <module name="Robot" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="assignment04-robot-processing-QuirinEcker" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
